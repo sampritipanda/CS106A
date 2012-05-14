@@ -118,7 +118,7 @@ public class Breakout extends GraphicsProgram {
 				if (i == 8 || i == 9) {
 					rect.setColor(Color.RED);
 				}
-				//pause(20);
+				pause(20);
 			}
 		}
 		
