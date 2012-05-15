@@ -3,7 +3,6 @@
  * It then displays a histogram of those scores, divided into the
  * ranges 0-9, 10-19, 20-29, and so forth, up to the range containing
  * only the value 100.
- * @author Eric
  * 
  */
 
