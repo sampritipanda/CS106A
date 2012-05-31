@@ -1,0 +1,698 @@
+1
+Outside building
+You are standing at the end of a road before a small brick
+building.  A small stream flows out of the building and
+down a gully to the south.  A road runs up a small hill
+to the west.
+-----
+WEST       2
+UP         2
+NORTH      3
+IN         3
+SOUTH      4
+DOWN       4
+
+2
+End of road
+You are at the end of a road at the top of a small hill.
+You can see a small building in the valley to the east.
+-----
+EAST       1
+DOWN       1
+
+3
+Inside building
+You are inside a building, a well house for a large spring.
+The exit door is to the south.  There is another room to
+the north, but the door is barred by a shimmering curtain.
+-----
+SOUTH      1
+OUT        1
+NORTH     70
+XYZZY     12/LAMP
+XYZZY     10
+PLUGH     48/LAMP
+PLUGH     10
+
+4
+Valley beside a stream
+You are in a valley in the forest beside a stream tumbling
+along a rocky bed.  The stream is flowing to the south.
+-----
+NORTH      1
+UP         1
+SOUTH      5
+DOWN       5
+
+5
+Slit in rock
+At your feet all the water of the stream splashes into a
+two-inch slit in the rock.  To the south, the streambed is
+bare rock.
+-----
+NORTH      4
+UP         4
+SOUTH      6
+DOWN       6
+
+6
+Outside grate
+You are in a 20-foot depression floored with bare dirt.
+Set into the dirt is a strong steel grate mounted in
+concrete.  A dry streambed leads into the depression from
+the north.
+-----
+NORTH      5
+UP         5
+DOWN       8/KEYS
+DOWN       7
+
+7
+Above locked grate
+The grate is locked and you don't have any keys.
+-----
+FORCED     6
+
+8
+Beneath grate
+You are in a small chamber beneath a 3x3 steel grate to
+the surface.  A low crawl over cobbles leads inward to
+the west.
+-----
+UP         6
+OUT        6
+IN         9
+WEST       9
+
+9
+Cobble crawl
+You are crawling over cobbles in a low east/west passage.
+There is a dim light to the east.
+-----
+EAST       8
+WEST      12/LAMP
+WEST      10
+
+10
+Darkness
+It is now pitch dark.  If you proceed you will likely fall
+into a pit.
+-----
+EAST       9
+OUT        9
+XYZZY      3
+PLUGH      3
+NORTH     11
+SOUTH     11
+WEST      11
+UP        11
+DOWN      11
+
+11
+Pit
+You fell into a pit and broke every bone in your body!
+-----
+FORCED     0
+
+12
+Debris room
+You are in a debris room filled with stuff washed in from
+the surface.  A low wide passage with cobbles becomes
+plugged with mud and debris here, but an extremely narrow
+canyon leads upward and west.  Carved on the wall is the
+message: "Magic Word XYZZY".
+-----
+EAST       9
+WEST      13
+UP        13
+XYZZY      3
+
+13
+Sloping canyon
+You are in an awkward sloping east/west canyon.
+-----
+EAST      12
+DOWN      12
+WEST      14/BIRD
+WEST      15/ROD
+WEST      14
+UP        14/BIRD
+UP        15/ROD
+UP        14
+
+14
+Chamber of orange stone
+You are in a splendid chamber thirty feet high.  The walls
+are frozen rivers of orange stone.  A narrow canyon and a
+good passage exit from east and west sides of the chamber.
+-----
+EAST      13
+WEST      16
+
+15
+Chamber of orange stone
+You are in a splendid chamber thirty feet high.  The walls
+are frozen rivers of orange stone.  A narrow canyon and a
+good passage exit from east and west sides of the chamber.
+High in the cavern, you see a little bird flying around
+the rocks.  It takes one look at the black rod and quickly
+flies out of sight.
+-----
+EAST      13
+WEST      16
+
+16
+Top of pit
+At your feet is a small pit breathing traces of white mist.
+An east passage ends here except for a small crack leading
+on.  Rough stone steps lead into the pit.
+-----
+EAST      14/BIRD
+EAST      15/ROD
+EAST      14
+WEST      17
+DOWN      18
+
+17
+Narrow crack
+The crack is far too small for you to follow.
+-----
+FORCED    16
+
+18
+Hall of mists
+You are at one end of a vast hall stretching forward out of
+sight to the west.  The hall is filled with wisps of white
+mist swaying to and fro almost as if alive.  There are
+passages to the north and south, and a stone stairway
+leads upward.
+-----
+UP        20/NUGGET
+UP        16
+WEST      21
+SOUTH     19
+NORTH     42/BIRD
+NORTH     40
+
+19
+Nugget of gold room
+This is a low room with a crude note on the wall.  The
+note says, "You won't get it up the steps."
+-----
+NORTH     18
+OUT       18
+
+20
+Unseen force
+An unseen force blocks your way and a ghostly voice echoes:
+"You won't get it up the steps."
+-----
+FORCED    18
+
+21
+East bank of fissure
+You are on the east bank of a fissure slicing clear across
+the hall.  The mist is quite thick here.
+-----
+EAST      18
+WAVE      24/ROD
+WAVE      23
+WEST      22
+JUMP      29
+
+22
+Blocked by fissure
+The fissure looks too wide to cross.
+-----
+FORCED    21
+
+23
+Wave Rod (bug: doesn't check object)
+You don't have the appropriate thing to wave.
+-----
+FORCED    21
+
+24
+Crystal bridge crossing fissure
+As you wave the rod, a cascade of crystalline sparks issues
+from its tip which gain shape and substance over the chasm.
+In moments, a shimmering crystal bridge spans the fissure.
+After you cross, the bridge fades into nothingness.
+-----
+FORCED    25
+
+25
+West bank of fissure
+You are on the west side of the fissure in the Hall of
+Mists.
+-----
+WEST      30
+WAVE      28/ROD
+WAVE      27
+EAST      26
+JUMP      29
+
+26
+Blocked by fissure
+The fissure looks too wide to cross.
+-----
+FORCED    25
+
+27
+Wave Rod (bug: doesn't check object)
+You don't have the appropriate thing to wave.
+-----
+FORCED    25
+
+28
+Crystal bridge crossing fissure
+As you wave the rod, a cascade of crystalline sparks issues
+from its tip which gain shape and substance over the chasm.
+In moments, a shimmering crystal bridge spans the fissure.
+After you cross, the bridge fades into nothingness.
+-----
+FORCED    21
+
+29
+Fatal jump
+You make a mighty leap but fall several feet short of the
+far side.  You make a few mad scrambles at the air as you
+fall to your death on the rocks below.
+-----
+FORCED     0
+
+30
+West end of the Hall of Mists
+You are at the west end of Hall of Mists.  A low wide
+crawl exits north.  To the south is a little passage
+six feet off the floor that seems to twist sharply.
+-----
+EAST      25
+NORTH     46
+SOUTH     31
+
+31
+You are in a maze of twisty little passages, all alike.
+You are in a maze of twisty little passages, all alike.
+-----
+WEST      30
+NORTH     32
+SOUTH     33
+
+32
+You are in a maze of twisty little passages, all alike.
+You are in a maze of twisty little passages, all alike.
+-----
+NORTH     34
+EAST      31
+WEST      35
+
+33
+You are in a maze of twisty little passages, all alike.
+You are in a maze of twisty little passages, all alike.
+-----
+NORTH     35
+EAST      36
+WEST      31
+
+34
+You are in a maze of twisty little passages, all alike.
+You are in a maze of twisty little passages, all alike.
+-----
+SOUTH     36
+WEST      32
+EAST      39
+
+35
+You are in a maze of twisty little passages, all alike.
+You are in a maze of twisty little passages, all alike.
+-----
+SOUTH     32
+WEST      33
+
+36
+You are in a maze of twisty little passages, all alike.
+You are in a maze of twisty little passages, all alike.
+-----
+EAST      33
+WEST      34
+NORTH     37
+
+37
+You are in a maze of twisty little passages, all alike.
+You are in a maze of twisty little passages, all alike.
+-----
+NORTH     38
+SOUTH     36
+WEST      39
+
+38
+Pirate's lair
+You're in the pirate's lair deep in the maze.  The only
+exit is south.
+-----
+SOUTH     37
+OUT       37
+
+39
+Brink of pit in the maze
+You are on the brink of a thirty-foot pit with a massive
+orange column down one wall.  You could climb down here
+but you could not get back up.  The maze continues at
+this level.
+-----
+EAST      37
+WEST      34
+DOWN      14/BIRD
+DOWN      15/ROD
+DOWN      14
+
+40
+Hall of the Mountain King
+You are in the Hall of the Mountain King, with passages off
+in several directions.  A fierce green snake bars your way.
+-----
+SOUTH     18
+NORTH     41
+EAST      41
+WEST      41
+
+41
+Blocked by snake
+You can't get by the snake.
+-----
+FORCED    40
+
+42
+Bird attacks snake
+As you enter the chamber, you see a fierce green snake.
+Before you can think, the little bird flies from your
+shoulder, attacks the green snake, and in an astounding
+flurry drives the snake away.  The bird then flies back.
+-----
+FORCED    43
+
+43
+Hall of the Mountain King
+You are in the Hall of the Mountain King, with passages off
+in several directions.
+-----
+SOUTH     18
+NORTH     47
+WEST      44
+EAST      45
+
+44
+West side chamber
+You are in the West Side Chamber of the Hall of the
+Mountain King.  A passage continues west and up here.
+-----
+EAST      43
+WEST      46
+UP        46
+
+45
+East side chamber
+You are in the East Side Chamber of the Hall of the
+Mountain King.
+-----
+WEST      43
+OUT       43
+
+46
+Long curving passage
+You are in a long passageway that curves from the east
+to the south.
+-----
+EAST      44
+SOUTH     30
+
+47
+Low N/S passage
+You are in a low N/S passage with a hole in the floor.
+-----
+NORTH     48
+SOUTH     43
+DOWN      53
+
+48
+You're at "Y2"
+You are in a large room, with a passage to the south,
+a passage to the west, and a wall of broken rock to the
+east.  There is a large "Y2" on a rock in the room's
+center.  As you enter, a hollow voice says "PLUGH".
+-----
+SOUTH     47
+PLUGH     51/NUGGET
+PLUGH      3
+EAST      52
+WEST      49
+
+49
+Window on pit
+You're at a low window overlooking a huge pit, which
+extends up out of sight.  A floor is indistinctly
+visible over 50 feet below.  Traces of white mist
+cover the floor of the pit, becoming thicker to the
+left.  Marks in the dust around the window would seem
+to indicate that someone has been here recently.
+Directly across the pit from you and 25 feet away
+there is a similar window in the wall of the pit.
+You see a shadowy figure in the other window.
+-----
+EAST      48
+OUT       48
+WAVE      50
+
+50
+Figure waves back
+The figure waves back.  In fact, it seems to be
+following your actions.
+-----
+FORCED    49
+
+51
+Too heavy
+As you utter the magic word, your surroundings begin
+to fade in and out.  After a protracted struggle, you
+hear a hollow voice say, "It's just too heavy."
+-----
+FORCED    48
+
+52
+Broken rock
+You wander around in the broken rock but don't find
+anything interesting.
+-----
+FORCED    48
+
+53
+E/W passage
+You are in an E/W passage.  There is a hole in the
+ceiling above that appears to open into a passage.
+-----
+UP        47
+WEST      58
+EAST      54
+
+54
+Green chamber
+You're in a small chamber lit by an eerie green light that
+seems to emanate from an extremely narrow crack to the
+north.  A dark corridor leads west.
+-----
+WEST      53/LAMP
+WEST      57
+NORTH     56/LAMP
+NORTH     56/BIRD
+NORTH     56/NUGGET
+NORTH     56/COINS
+NORTH     55
+
+55
+Emerald room
+You're in a small chamber whose walls are studded with
+glowing green gemstones.  A narrow crack leads south.
+-----
+SOUTH     54
+OUT       54
+
+56
+Too narrow for crack
+Something you're carrying won't fit through the crack.
+-----
+FORCED    54
+
+57
+Darkness
+It is now pitch dark.  If you proceed you will likely fall
+into a pit.
+-----
+EAST      54
+
+58
+East end of Twopit Room
+You are at the east end of the Twopit Room.  The floor
+here is littered with thin rock slabs, which make it easy
+to descend the pits.  There is a path here bypassing the
+pits to connect passages from east and west.  There are
+holes all over, but the only big one is in the roof
+directly over the west pit where you can't get to it.
+-----
+EAST      53
+WEST      59
+DOWN      60
+
+59
+West end of Twopit Room
+You are at the west end of the Twopit Room.  There is
+a large hole above the pit at this end of the room.
+-----
+EAST      58
+WEST      69
+DOWN      61
+
+60
+East pit
+You are at the bottom of the eastern pit in the Twopit
+Room.
+-----
+UP        58
+
+61
+West pit
+You are at the bottom of the western pit in the Twopit
+Room underneath a large hole in the ceiling.
+-----
+UP        59
+WATER     62/PLANT
+WATER     63
+
+62
+Plant is already picked (bug: might be elsewhere)
+You can't water the plant after you've picked it.  You
+might try replanting it.
+-----
+FORCED    61
+
+63
+Beanstalk
+As you water the plant, it bursts into violent growth,
+quickly filling the entire pit and pushing you upward
+toward the hole in ceiling.  You scramble for your life
+and manage to catch hold of the rock and pull yourself to
+safety.  The plant then shrinks away as quickly as it grew.
+-----
+FORCED    64
+
+64
+Giant room
+You are in the Giant Room.  The ceiling here is too high
+up for your lamp to show it.  A cavernous passage leads
+north.  There is a hole in the floor through which you
+can see the Twopit room far below.
+-----
+NORTH     66
+DOWN      65
+
+65
+Too big a drop
+Without the plant, it's far too large a drop.
+-----
+FORCED    64
+
+66
+Whirlpool
+You are in a magnificent cavern with a rushing stream,
+which cascades over a sparkling waterfall into a roaring
+whirlpool that disappears through a hole in the floor.
+A passage exits to the south.
+-----
+SOUTH     64
+DOWN      67
+SWIM      67
+
+67
+ThroughWhirlpool
+You are dragged down, down, into the depths of the
+whirlpool.  Just as you can no longer hold your breath,
+you are shot out over a waterfall into the shallow end
+of a large reservoir.  Gasping and sputtering, you crawl
+weakly towards the shore.
+-----
+FORCED    68
+
+68
+Underground lake
+You are at the edge of a large underground reservoir.
+An opaque cloud of white mist fills the room and rises
+rapidly upward.  The lake is fed by a stream, which
+tumbles out of a hole in the wall about ten feet
+overhead and splashes noisily into the water somewhere
+within the mist.  The only exit is to the south.
+-----
+SOUTH     69
+OUT       69
+
+69
+Mirror room
+You are in a circular chamber about 25 feet across.  The
+floor is covered by white mist seeping in from the north.
+The walls extend upward for well over 100 feet.  Suspended
+from some unseen point far above you, an enormous two-sided
+mirror is hanging parallel to and midway between the canyon
+walls.  A small window can be seen in the wall some fifty
+feet up.  The canyon has exits to the north and east.
+-----
+NORTH     68
+EAST      59
+
+70
+Curtain1
+-----
+FORCED    71/NUGGET
+FORCED    76
+
+71
+Curtain2
+-----
+FORCED    72/DIAMOND
+FORCED    76
+
+72
+Curtain3
+-----
+FORCED    73/EMERALD
+FORCED    76
+
+73
+Curtain4
+-----
+FORCED    74/EGGS
+FORCED    76
+
+74
+Curtain5
+-----
+FORCED    75/CHEST
+FORCED    76
+
+75
+Curtain6
+-----
+FORCED    77/COINS
+FORCED    76
+
+76
+Missing Treasures
+You can pass through this curtain only if you're carrying
+all the treasures.  You don't yet have all six.
+-----
+FORCED     3
+
+77
+Victory
+You have collected all the treasures and are admitted to
+the Adventurer's Hall of Fame.  Congratulations!
+-----
+FORCED     0

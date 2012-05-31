@@ -1,0 +1,47 @@
+KEYS
+a set of keys
+3
+
+LAMP
+a brightly shining brass lamp
+8
+
+ROD
+a black rod with a rusty star
+12
+
+BIRD
+a little bird
+14
+
+NUGGET
+a nugget of gold
+19
+
+DIAMOND
+a sparkling diamond
+25
+
+COINS
+a bag of coins
+45
+
+EMERALD
+an emerald the size of a plover's egg
+55
+
+EGGS
+a nest of golden eggs
+64
+
+WATER
+a bottle of water
+3
+
+PLANT
+a small plant murmuring "Water, water"
+61
+
+CHEST
+a pirate chest
+38

@@ -1,0 +1,116 @@
+1
+Outside building
+You are standing at the end of a road before a small brick
+building.  A small stream flows out of the building and
+down a gully to the south.  A road runs up a small hill
+to the west.
+-----
+WEST       2
+UP         2
+NORTH      3
+IN         3
+SOUTH      4
+DOWN       4
+
+2
+End of road
+You are at the end of a road at the top of a small hill.
+You can see a small building in the valley to the east.
+-----
+EAST       1
+DOWN       1
+
+3
+Inside building
+You are inside a building, a well house for a large spring.
+-----
+SOUTH      1
+OUT        1
+
+4
+Valley beside a stream
+You are in a valley in the forest beside a stream tumbling
+along a rocky bed.  The stream is flowing to the south.
+-----
+NORTH      1
+UP         1
+SOUTH      5
+DOWN       5
+
+5
+Slit in rock
+At your feet all the water of the stream splashes into a
+two-inch slit in the rock.  To the south, the streambed is
+bare rock.
+-----
+NORTH      4
+UP         4
+SOUTH      6
+DOWN       6
+
+6
+Outside grate
+You are in a 25-foot depression floored with bare dirt.
+Set into the dirt is a strong steel grate mounted in
+concrete.  A dry streambed leads into the depression from
+the north.
+-----
+NORTH      5
+UP         5
+DOWN       8/KEYS
+DOWN       7
+
+7
+Above locked grate
+The grate is locked and you don't have any keys.
+-----
+FORCED     6
+
+8
+Beneath grate
+You are in a small chamber beneath a 3x3 steel grate to
+the surface.  A low crawl over cobbles leads inward to
+the west.
+-----
+UP         6
+OUT        6
+IN         9
+WEST       9
+
+9
+Cobble crawl
+You are crawling over cobbles in a low east/west passage.
+There is a dim light to the east.
+-----
+EAST       8
+WEST      12/LAMP
+WEST      10
+
+10
+Darkness
+It is now pitch dark.  If you proceed you will likely fall
+into a pit.
+-----
+EAST       9
+OUT       11
+NORTH     11
+SOUTH     11
+WEST      11
+UP        11
+DOWN      11
+
+11
+Pit
+You fell into a pit and broke every bone in your body!
+-----
+FORCED     0
+
+12
+Debris room
+You are in a debris room filled with stuff washed in from
+the surface.  A low wide passage with cobbles becomes
+plugged with mud and debris here, but an extremely narrow
+canyon leads upward and west.  Unfortunately, the passage
+is blocked by a barrier marked "Under Construction."
+-----
+EAST       9

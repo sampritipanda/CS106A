@@ -1,0 +1,11 @@
+KEYS
+a set of keys
+3
+
+LAMP
+a brightly shining brass lamp
+8
+
+ROD
+a black rod with a rusty star
+12
