@@ -169,7 +169,7 @@ public class Breakout extends GraphicsProgram {
 			collideObj = getCollidingObject();
 			if(collideObj == paddle){
 				Math.abs(vy += DELTA_VEL);
-				if(ball.getX() <= paddle.getX() + 2 && ball.getX() >= paddle.getX()){
+				if(ball.getY() >= getHeight() - PADDLE_Y_OFFSET - PADDLE_HEIGHT - (BALL_RADIUS * 2) && ball.getY() < getHeight() - PADDLE_Y_OFFSET - PADDLE_HEIGHT - (BALL_RADIUS * 2) + 4){
 					if(vx > 0){
 						vx = -vx;
 					}
@@ -182,7 +182,6 @@ public class Breakout extends GraphicsProgram {
 					counter++;
 				}
 				vy = -vy;
-				pause(50);
 				bounceClip.play();
 				if(counter == 0){
 					vx = rgen.nextDouble(MIN_X_VELOCITY, MAX_X_VELOCITY);
